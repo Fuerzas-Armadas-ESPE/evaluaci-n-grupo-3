@@ -16,7 +16,7 @@ describe('CoursesService', () => {
       ],
     }).compile();
 
-    coursesService = module.get<CourseService>(CoursesService);
+    coursesService = module.get<CourseService>(CourseService);
   });
 
   it('should be defined', () => {
